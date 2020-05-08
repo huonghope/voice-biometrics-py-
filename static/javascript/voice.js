@@ -86,12 +86,10 @@ document.querySelector('#startRecButton').addEventListener('click', function () 
   // For the background sound
   if (document.querySelector('#passphraseMessage').style.display == 'none') {
     showElement('#environmentMessage');
-
     console.log("You have started recording passphrase...");
     recorder.record(soundFile);
   } else {
     document.querySelector('#passphraseMessage').classList.add('green');;
-
     console.log("You have started recording the background...");
     recorder.record(soundFile);
   }
