@@ -22,7 +22,7 @@ import scipy.io.wavfile
 # For the speech detection alogrithms
 import speech_recognition
 # For the fuzzy matching algorithms
-from fuzzywuzzy import fuzz
+from rapidfuzz import fuzz
 # For using the MFCC feature selection
 from python_speech_features import mfcc
 # For generating random words
